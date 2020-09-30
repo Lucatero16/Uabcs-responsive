@@ -1,0 +1,152 @@
+header, footer, .btn{
+	background-color: #3969b8;
+}
+body{
+	margin: auto;
+	display: flexboxs;
+	text-align: center;
+}
+footer{
+	color: #ecb60e;
+	padding: 20px;
+	font-size: 12px;
+}
+input{
+	text-align: center;
+	font-size: 10px;
+	margin: 10px;
+	width: 100%;
+	height: 30px;
+}
+.flo-1{
+	float: left;
+	width: 80%;
+	text-align: right;
+}
+.oferta, .cont{
+	font-size: 20px;
+	padding: 10px;
+}
+.oferta{
+	color: #32618d;
+}
+.cont{
+	background-color: #8d9ebe;
+	color: white;
+}
+.pl-1{
+	margin-left: 0.2%;
+	width: 20%;
+	float: left;
+}
+.logo{
+	width: 300px;
+}
+.fb{
+	width: 30px;
+}
+.tw{
+	padding-left: 1em;
+	width: 30px;
+}
+.foto{
+	width: 100%;
+}
+.txt-align-r{
+	text-align: right;
+}
+.center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 400px;
+	flex: 1;
+}
+.refe{
+	font-size: 15px;
+	color: #32618d;
+	margin: 15px;
+	padding: 5px;
+	text-decoration: none;
+}
+.seccion{
+	width: 20%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	border: solid 1px #cdcdcd;
+	border-radius: 5px;
+}
+.t-1{
+	font-size: 12px;
+	margin: 5px;
+	padding-top: 5px;
+}
+
+.t-2{
+	font-size: 10px;
+	color: #cdcdcd;
+	margin: 5px;
+}
+.linea{
+	color: green;
+	font-size: 8px;
+	padding-bottom: 2px;
+}
+.btn{
+	color: white;
+	font-size: 10px;
+	height: 30px;
+	width: 120px;
+	border-radius: 5px;
+	margin-top: 10px;
+	float: right;
+}
+.container{
+	width: 100%;
+	display: flex;
+}
+.hd-flex{/*Para acomodar el header y que no se salga de la pantalla*/
+	display: flex;
+    flex-direction: row;/*Sirve para que acomodar los elemntos que tienes (por columnas o filas)*/
+    justify-content: center;/*Sirve para aliniear los elemntos del flex*/
+}
+.img-contacto{/*Imagen de contacto para que se adapate a la pantalla completa*/
+	width: 50%;
+	height: auto;
+}
+.center-contacto{/*Para acomodar la parte de contacto*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;/*Esto sire para encapsular o envolver los elementos que tienes en el flex*/
+	flex-direction: row;
+	}
+	.col-11{/*Esto sirve para acomodar el formulario cuando tenga capte una resolucion mayor a la de un celular*/
+		width: 24%;
+	}
+@media only screen and (max-width: 668px){
+	.center-contacto{
+	display: flex;
+	align-items: end;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;/*Para que acomode los elemntos de la parte contacto por columnas*/
+	}
+	.col-11{
+		width: 94%;/*Cuando capte que esta en una resolucion menor, este abarque todo la pantalla*/
+	}
+	.seccion{
+		width: 100%;
+		margin-right: 2.5%;
+		margin-left: 2.5%;
+		border: solid 1px #cdcdcd;
+		border-radius: 5px;
+	}
+}
